@@ -15,10 +15,10 @@ The instruction of files and folders are outlined below.
 
 >"main.py": to test all models used in this project. All models will be trained for 10 times, and stored under the specific path.
 
->"test_new_image_on_nn": to test general neural network model on the testing image, the best one of ten should be assigned before running.
+>"test_new_image_on_nn.py": to test general neural network model on the testing image, the best one of ten should be assigned before running.
 
->"test_new_image_on_nn32": to test general neural network model with patch size 32 on the testing image, the best one of ten should be assigned before running.
+>"test_new_image_on_nn32.py": to test general neural network model with patch size 32 on the testing image, the best one of ten should be assigned before running.
 
->"test_new_image_on_cnn": to test CNN model on the testing image, the best one of ten should be assigned before running.
+>"test_new_image_on_cnn.py": to test CNN model on the testing image, the best one of ten should be assigned before running.
 
 >"utils.py": to define some functions used by above codes, including loading data and plotting training curve.
